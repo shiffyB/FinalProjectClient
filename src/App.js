@@ -8,6 +8,8 @@ import SignUp from './SignUp';
 import Product from './Product';
 import ApplyProduct from './ApplyProduct';
 import SignIn from './SignIn';
+import SaleDetailsForm from './SaleDetailsForm';
+
 
 
 
@@ -18,7 +20,7 @@ function App() {
       {/* <ProductDetailsForm></ProductDetailsForm> */}
       {/* <ApplyProduct/> */}
       {/* <SignUp></SignUp> */}
-            <SignIn></SignIn>
+            <SaleDetailsForm></SaleDetailsForm>
 
       
     </div>
