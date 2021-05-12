@@ -73,9 +73,9 @@ export default function ProductDetailsForm() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
+        {/* <Avatar className={classes.avatar}>
           <LockOutlinedIcon />
-        </Avatar>
+        </Avatar> */}
         <Typography component="h1" variant="h5">
             Add new Product
         </Typography>
@@ -151,8 +151,8 @@ export default function ProductDetailsForm() {
                 <RadioGroup aria-label="quiz" name="quiz" 
                 // value={value} onChange={handleRadioChange}
                 >
-                <FormControlLabel value="best" control={<Radio />} label="The best!" />
-                <FormControlLabel value="worst" control={<Radio />} label="The worst." />
+                <FormControlLabel value="best" control={<Radio />} label="units" />
+                <FormControlLabel value="worst" control={<Radio />} label="weight" />
                 </RadioGroup>
             </Grid>
             <Grid item xs={12}>
