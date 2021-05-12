@@ -3,14 +3,16 @@ import './App.css';
 
 import './Status';
 import Status from './Status';
-import ProductDetailsForm from './ProductDetailsForm';
+// import ProductDetailsForm from './ProductDetailsForm';
+import SignUp from './SignUp';
 
 function App() {
   return (
     <div className="App">
 
       {/* <Status></Status> */}
-      <ProductDetailsForm></ProductDetailsForm>
+      {/* <ProductDetailsForm></ProductDetailsForm> */}
+      <SignUp></SignUp>
     </div>
   );
 }
